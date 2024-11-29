@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>O Enigma dos Portais Perdidos</title>
+</head>
+<body>
+    <header>
+        <h1>O Enigma dos Portais Perdidos</h1>
+    </header>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/portal-inicio.png" alt="Dispositivo dos portais">
+            <p>Você encontrou um antigo dispositivo que ativa portais para mundos desconhecidos. Cada portal guarda um segredo e pistas que levam ao grande enigma.</p>
+            <button class="btn-proximo" data-proximo="1">Explorar Floresta Encantada</button>
+            <button class="btn-proximo" data-proximo="2">Ir ao Deserto Perdido</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/floresta.png" alt="Floresta Encantada">
+            <p>A Floresta Encantada é sombria e mágica. Você encontra uma pedra brilhante com inscrições. O que fazer?</p>
+            <button class="btn-proximo" data-proximo="3">Ler as inscrições</button>
+            <button class="btn-proximo" data-proximo="4">Seguir pelo caminho da névoa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/deserto.png" alt="Deserto Perdido">
+            <p>No Deserto Perdido, você encontra uma tempestade de areia e um obelisco misterioso. Como proceder?</p>
+            <button class="btn-proximo" data-proximo="5">Explorar o obelisco</button>
+            <button class="btn-proximo" data-proximo="6">Esperar a tempestade passar</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>As inscrições revelam um feitiço que abre outro portal para um reino submerso.</p>
+            <button class="btn-proximo" data-proximo="7">Entrar no portal submerso</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>O caminho da névoa te leva de volta ao início. Será preciso explorar novamente.</p>
+            <button class="btn-proximo" data-proximo="0">Voltar ao início</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>O obelisco contém um mapa que direciona ao Vale das Areias Douradas, com mais segredos.</p>
+            <button class="btn-proximo" data-proximo="8">Seguir o mapa</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>A tempestade revela uma entrada secreta para ruínas antigas.</p>
+            <button class="btn-proximo" data-proximo="8">Explorar as ruínas</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>No reino submerso, você encontra o artefato final que desbloqueia o último portal.</p>
+            <button class="btn-proximo" data-proximo="9">Abrir o Portal Final</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>As ruínas levam ao mesmo artefato no reino submerso. A jornada continua!</p>
+            <button class="btn-proximo" data-proximo="7">Entrar no portal submerso</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="img/portal-final.png" alt="Portal Final">
+            <p>Você desvenda o enigma dos portais e descobre o segredo cósmico. A jornada termina, mas o mistério continua...</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
